@@ -7,7 +7,7 @@ module.exports = {
         // 即 docs/.vuepress/public/img/geass-bg.ico
         // ['link', { rel: 'icon', href: '/img/geass-bg.ico' }], 
     ],
-    base: '/zblog/', // 这是部署到github相关的配置
+    // base: '/zblog/', // 这是部署到github相关的配置
     dest: 'dist',
     markdown: {
         lineNumbers: true // 代码块显示行号
