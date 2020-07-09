@@ -7,14 +7,13 @@ module.exports = {
         // 即 docs/.vuepress/public/img/geass-bg.ico
         // ['link', { rel: 'icon', href: '/img/geass-bg.ico' }], 
     ],
-    // base: '/zblog/', // 这是部署到github相关的配置
+    base: '/zblog/', // 这是部署到github相关的配置
     dest: 'dist',
     markdown: {
         lineNumbers: true // 代码块显示行号
     },
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
