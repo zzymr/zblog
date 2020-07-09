@@ -36,7 +36,7 @@ module.exports = {
           },
           {
             text: '3.x 版本',
-            link: '/v3/'
+            link: '/v3/guide/'
           }
         ],
         sidebar: {
